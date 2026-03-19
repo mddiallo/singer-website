@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "about":   "About",
+    "music":   "Music",
+    "tour":    "Tour",
+    "gallery": "Gallery",
+    "fanclub": "Fan Club"
+  },
+  "hero": {
+    "tagline":   "Let the music carry you away.",
+    "ctaListen": "Listen Now",
+    "ctaTour":   "Tour Dates"
+  },
+  "about": {
+    "heading": "About",
+    "bio":     "Singer biography goes here. Share their journey, influences, and passion for music. This text will be displayed in the About section of the website."
+  },
+  "music": {
+    "heading":   "Discography",
+    "streamOn":  "Stream on"
+  },
+  "tour": {
+    "heading":     "Tour Dates",
+    "date":        "Date",
+    "city":        "City",
+    "venue":       "Venue",
+    "tickets":     "Tickets",
+    "soldOut":     "Sold Out",
+    "noShows":     "No upcoming shows at the moment. Stay tuned!"
+  },
+  "gallery": {
+    "heading": "Gallery",
+    "close":   "Close",
+    "prev":    "Previous",
+    "next":    "Next",
+    "image":   "Photo"
+  },
+  "signup": {
+    "heading":          "Join the Fan Club",
+    "subheading":       "Be the first to hear about new releases and upcoming concerts.",
+    "namePlaceholder":  "Your first name",
+    "emailPlaceholder": "Your email address",
+    "submit":           "Subscribe",
+    "submitting":       "Subscribing…",
+    "successTitle":     "Welcome to the Fan Club!",
+    "successBody":      "You'll soon receive exclusive news.",
+    "errorName":        "Please enter a valid name (at least 2 characters).",
+    "errorEmail":       "Please enter a valid email address.",
+    "errorServer":      "Something went wrong. Please try again."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "about":   "À propos",
+    "music":   "Musique",
+    "tour":    "Tournée",
+    "gallery": "Galerie",
+    "fanclub": "Fan Club"
+  },
+  "hero": {
+    "tagline":   "Laissez-vous emporter par la musique.",
+    "ctaListen": "Écouter",
+    "ctaTour":   "Voir les dates"
+  },
+  "about": {
+    "heading": "À propos",
+    "bio":     "Biographie du chanteur à renseigner ici. Partagez son parcours, ses influences et sa passion pour la musique. Ce texte sera affiché dans la section À propos du site."
+  },
+  "music": {
+    "heading":   "Discographie",
+    "streamOn":  "Écouter sur"
+  },
+  "tour": {
+    "heading":     "Dates de tournée",
+    "date":        "Date",
+    "city":        "Ville",
+    "venue":       "Lieu",
+    "tickets":     "Billets",
+    "soldOut":     "Complet",
+    "noShows":     "Aucune date à venir pour le moment. Restez connectés !"
+  },
+  "gallery": {
+    "heading": "Galerie",
+    "close":   "Fermer",
+    "prev":    "Précédent",
+    "next":    "Suivant",
+    "image":   "Photo"
+  },
+  "signup": {
+    "heading":          "Rejoignez le Fan Club",
+    "subheading":       "Soyez les premiers informés des nouvelles sorties et des concerts.",
+    "namePlaceholder":  "Votre prénom",
+    "emailPlaceholder": "Votre adresse e-mail",
+    "submit":           "S'inscrire",
+    "submitting":       "Inscription en cours…",
+    "successTitle":     "Bienvenue dans le Fan Club !",
+    "successBody":      "Vous recevrez bientôt des nouvelles exclusives.",
+    "errorName":        "Veuillez entrer un prénom valide (2 caractères minimum).",
+    "errorEmail":       "Veuillez entrer une adresse e-mail valide.",
+    "errorServer":      "Une erreur est survenue. Veuillez réessayer."
+  },
+  "footer": {
+    "rights": "Tous droits réservés."
+  }
+}

@@ -1,0 +1,79 @@
+.tour {
+  background: var(--color-bg-surface);
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 1.1rem;
+  padding: 3rem 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  transition: background var(--duration-fast);
+}
+
+.row:last-child { border-bottom: none; }
+
+.row:hover { background: var(--color-bg-card); }
+
+.date {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+.city {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.venue {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.soldOut {
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .row {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .venue {
+    grid-column: 1 / -1;
+    font-size: 0.875rem;
+  }
+
+  .action { grid-row: 1; }
+}
